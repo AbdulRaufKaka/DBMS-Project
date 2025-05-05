@@ -19,8 +19,10 @@ function LoginPage() {
     }
   };
 
+
+
   return (
-    <div className="flex justify-center items-center min-h-screen bg-gradient-to-r from-purple-400 to-blue-500">
+    <div  className="  flex justify-center items-center min-h-screen bg-gradient-to-r from-purple-400 to-blue-500 "  >
       <form onSubmit={handleSubmit} className="bg-white p-8 rounded-lg shadow-lg w-96">
         <h2 className="text-2xl font-bold mb-6 text-center text-purple-500">Login</h2>
         <input type="email" name="email" placeholder="Email" onChange={handleChange}

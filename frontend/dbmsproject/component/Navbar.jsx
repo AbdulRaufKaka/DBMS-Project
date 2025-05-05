@@ -9,6 +9,8 @@ function Navbar() {
         <Link to="/" className="text-white hover:underline">Flights</Link>
         <Link to="/register" className="text-white hover:underline">Register</Link>
         <Link to="/login" className="text-white hover:underline">Login</Link>
+        <Link to="/admin/dashboard" className="text-white hover:underline">Admin</Link>
+
       </div>
     </nav>
   );
